@@ -1,0 +1,62 @@
+1\. Start Here
+
+Intro:
+
+\- Why use TestStand? Purpose?
+
+\- Adapted from combo of videos / personal experience (link to videos)
+
+
+
+2\. Terminology:
+
+\- Test Executive
+
+*- Explain difference between seq file and seqs within (come up with distinct terms?)*
+
+
+
+2\. Options:
+
+\- Model options
+
+\- Search directories (- Referencing dlls properly)
+
+\- Find where documentation talks about seq file properties (file save format ini/binary, shared fileglobals, threadlock vs batch sync)
+
+\- More details on station config (expand on one-time setup)
+
+\- User management
+
+
+
+3\. Writing programs:
+
+\- Step flow chart items can be explained (where they are/how to edit)
+
+\- Sequence file callbacks (pre-uut, post-uut, etc) in more detail (seq flow flowchart)
+
+\- C passing rules (getting the type stuff right, by ref/by value)
+
+\- Types overview
+
+\- Action vs pass fail
+
+
+
+4\. Executing programs:
+
+\- Debugging (breakpoints, tracing)
+
+
+
+5\. Tips \& Tricks:
+
+\- Basic tips and tricks (help menu F1, run selected steps, unload all modules, copypasting vars, reset UI configuration, lock UI configuration)
+
+
+
+6\. API:
+
+\- TestStand API
+
