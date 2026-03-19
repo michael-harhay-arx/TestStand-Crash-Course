@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yourself_20with_20the_20environment_0',['Familiarize yourself with the environment',['../start.html#familiarize',1,'']]]
+  ['why_20use_20teststand_0',['Why Use TestStand?',['../index.html#whyuse',1,'']]]
 ];

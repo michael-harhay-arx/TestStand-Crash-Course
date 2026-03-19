@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['sequence_0',['Sequence',['../developing.html',1,'Developing a Test Sequence'],['../running.html',1,'Running a Test Sequence']]],
-  ['start_20here_1',['Start Here',['../index.html',1,'']]],
-  ['started_2',['Getting Started',['../start.html',1,'developing']]]
+  ['running_20a_20test_20sequence_0',['Running a Test Sequence',['../running.html',1,'']]]
 ];

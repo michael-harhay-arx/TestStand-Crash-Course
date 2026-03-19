@@ -15,6 +15,15 @@ var NAVTREEINDEX0 =
 "start.html":[2,0],
 "start.html#familiarize":[2,0,1],
 "start.html#open":[2,0,0],
+"steps.html":[2,2],
+"steps.html#action":[2,2,0,0],
+"steps.html#db":[2,2,0,5],
+"steps.html#flow":[2,2,0,4],
+"steps.html#pf":[2,2,0,1],
+"steps.html#sc":[2,2,0,2],
+"steps.html#statement":[2,2,0,3],
+"steps.html#types":[2,2,0],
 "terms.html":[1],
-"tips.html":[5]
+"tips.html":[5],
+"vars.html":[2,1]
 };

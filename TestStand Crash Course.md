@@ -16,7 +16,27 @@ Intro:
 
 
 
-2\. Options:
+3\. Writing programs:
+
+a) Getting Started
+
+b) Variables
+
+b) Step Types C passing rules (getting the type stuff right, by ref/by value) (Action vs pass fail) (step editing)
+
+d) Types
+
+e) Step flow chart items can be explained (where they are/how to edit), Sequence file callbacks (pre-uut, post-uut, etc) in more detail (seq flow flowchart)
+
+
+
+4\. Executing programs:
+
+\- Debugging (breakpoints, tracing)
+
+
+
+5\. Options:
 
 \- Model options
 
@@ -30,33 +50,15 @@ Intro:
 
 
 
-3\. Writing programs:
-
-\- Step flow chart items can be explained (where they are/how to edit)
-
-\- Sequence file callbacks (pre-uut, post-uut, etc) in more detail (seq flow flowchart)
-
-\- C passing rules (getting the type stuff right, by ref/by value)
-
-\- Types overview
-
-\- Action vs pass fail
 
 
-
-4\. Executing programs:
-
-\- Debugging (breakpoints, tracing)
-
-
-
-5\. Tips \& Tricks:
+6\. Tips \& Tricks:
 
 \- Basic tips and tricks (help menu F1, run selected steps, unload all modules, copypasting vars, reset UI configuration, lock UI configuration)
 
 
 
-6\. API:
+7\. API:
 
 \- TestStand API
 
