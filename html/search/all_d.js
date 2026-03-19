@@ -6,7 +6,7 @@ var searchData=
   ['sequence_20file_20properties_3',['Sequence File Properties',['../config.html#seqfileprop',1,'']]],
   ['sequence_20flow_4',['Sequence Flow',['../flow.html#seqflow',1,'']]],
   ['start_20here_5',['Start Here',['../index.html',1,'']]],
-  ['started_6',['Getting Started',['../start.html',1,'developing']]],
+  ['started_6',['Getting Started',['../index.html#start',1,'']]],
   ['statement_7',['Statement',['../steps.html#statement',1,'']]],
   ['station_20options_8',['Station Options',['../config.html#stationopts',1,'']]],
   ['step_20flow_9',['Step Flow',['../flow.html#stepflow',1,'']]],

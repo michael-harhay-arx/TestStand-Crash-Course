@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yourself_0',['Familiarize Yourself',['../start.html#familiarize',1,'']]]
+  ['yourself_0',['Familiarize Yourself',['../index.html#familiarize',1,'']]]
 ];

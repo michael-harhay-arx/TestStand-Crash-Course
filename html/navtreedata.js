@@ -27,8 +27,6 @@ var NAVTREE =
   [ "TestStand Crash Course", "index.html", [
     [ "Start Here", "index.html", "index" ],
     [ "Terminology", "terms.html", null ],
-    [ "Developing a Test Sequence", "developing.html", "developing" ],
-    [ "Running a Test Sequence", "running.html", null ],
     [ "Configuration &amp; Options", "config.html", [
       [ "Sequence File Properties", "config.html#seqfileprop", null ],
       [ "User Manager", "config.html#usermng", null ],
@@ -39,8 +37,11 @@ var NAVTREE =
       [ "Search Directories", "config.html#searchdirs", null ],
       [ "Model Options", "config.html#modelopts", null ]
     ] ],
+    [ "Developing a Test Sequence", "developing.html", "developing" ],
+    [ "Running a Test Sequence", "running.html", "running" ],
     [ "Tips &amp; Tricks", "tips.html", null ],
-    [ "TestStand API", "api.html", null ]
+    [ "TestStand API", "api.html", null ],
+    [ "Change Log", "changelog.html", null ]
   ] ]
 ];
 
