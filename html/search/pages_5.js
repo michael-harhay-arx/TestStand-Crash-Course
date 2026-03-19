@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['here_0',['Start Here',['../index.html',1,'']]]
+  ['getting_20started_0',['Getting Started',['../start.html',1,'developing']]],
+  ['guide_1',['About this Guide',['../index.html#howto',1,'']]]
 ];

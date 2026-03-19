@@ -14,5 +14,10 @@ var developing =
         [ "Flow Control", "steps.html#flow", null ],
         [ "Database", "steps.html#db", null ]
       ] ]
+    ] ],
+    [ "Types", "types.html", null ],
+    [ "TestStand Flows", "flow.html", [
+      [ "Sequence Flow", "flow.html#seqflow", null ],
+      [ "Step Flow", "flow.html#stepflow", null ]
     ] ]
 ];

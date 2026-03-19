@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['pass_20fail_0',['Pass/Fail',['../steps.html#pf',1,'']]]
+  ['manager_0',['User Manager',['../config.html#usermng',1,'']]],
+  ['model_1',['Model',['../config.html#model',1,'']]],
+  ['model_20options_2',['Model Options',['../config.html#modelopts',1,'']]]
 ];

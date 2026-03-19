@@ -4,6 +4,7 @@
 * Briefly familiarize yourself with the following terms before continuing, as they will be referenced throughout the guide.
 *
 * <dl>
+*
 *   <dt><b><a id="term_sequence_file"></a>Sequence File</b></dt>
 *   <dd>
 *     A file type that can be opened via a <a href="#term_test_executive">test executive</a>.
@@ -25,6 +26,11 @@
 *   <dt><b><a id="term_test_step"></a>Test Step</b></dt>
 *   <dd>
 *     A singular test, often taking place within a <a href="#term_sequence">test sequence</a>.
+*   </dd>
+*
+*   <dt><b><a id="term_uut"></a>UUT</b></dt>
+*   <dd>
+*     Stands for Unit Under Test.
 *   </dd>
 * </dl>
 *******************************************************************************/
