@@ -20,6 +20,6 @@ var searchData=
   ['step_20properties_17',['Step Properties',['../steps.html#stepprops',1,'']]],
   ['step_20run_20modes_18',['Step Run Modes',['../running.html#modes',1,'']]],
   ['step_20specific_20settings_19',['Step-Specific Settings',['../steps.html#stepsettings',1,'']]],
-  ['step_20types_20',['Test Step Types',['../steps.html#types',1,'']]],
+  ['step_20types_20',['Test Step Types',['../steps.html#tstypes',1,'']]],
   ['steps_21',['Steps',['../running.html#running2',1,'Running Selected Steps'],['../steps.html',1,'Test Steps'],['../steps.html#workwithsteps',1,'Working with Test Steps']]]
 ];

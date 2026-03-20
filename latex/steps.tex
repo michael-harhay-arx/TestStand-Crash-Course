@@ -1,6 +1,6 @@
 \doxysection{Test Steps }
 \hypertarget{steps}{}\label{steps}\index{Test Steps@{Test Steps}}
-\hypertarget{steps_types}{}\doxysubsection{\texorpdfstring{Test Step Types}{Test Step Types}}\label{steps_types}
+\hypertarget{steps_tstypes}{}\doxysubsection{\texorpdfstring{Test Step Types}{Test Step Types}}\label{steps_tstypes}
 Test\+Stand contains many step types, which can be used to build test sequences. Here are a few of the most commonly used step types:\+\hypertarget{steps_action}{}\doxysubsubsection{\texorpdfstring{Action}{Action}}\label{steps_action}
 Calls a code module that does not perform a test. For example, an action step might initialize an instrument to prepare it for testing.  
 \begin{DoxyImageNoCaption}%
@@ -48,9 +48,11 @@ There are a few key properties to note, all of which are used often at Arxtron:\
 \item {\bfseries{Expressions}}:\+ Pre-\/ and Post-\/\+Expressions are Test\+Stand expressions that will run before and after the execution of the current step. The Status Expression determines the output status of the test (pass/\+fail)
 \item {\bfseries{Preconditions}}:\+ A Test\+Stand expression that determines whether or not the current step is run in the sequence, via a logical condition.
 \end{DoxyItemize}\hypertarget{steps_stepsettings}{}\doxysubsubsubsection{\texorpdfstring{Step-\/\+Specific Settings}{Step-\/\+Specific Settings}}\label{steps_stepsettings}
- 
+{\bfseries{Step-\/\+Specific Settings}} vary between test step types.
+
+For example, an Action test step\textquotesingle{}s settings primarily concerns the passing of parameters between Test\+Stand and the code module.  
 \begin{DoxyImage}%
 \includegraphics[width=0.850000\textwidth]{stepsettings.png}%
-\doxyfigcaption{Step-\/\+Specific Settings Tab}%
+\doxyfigcaption{Step-\/\+Specific Settings Tab for an Action Test Step}%
 \end{DoxyImage}
  

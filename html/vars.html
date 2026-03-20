@@ -129,7 +129,13 @@ Variables</h2>
  <p>There is another useful way to create variables: type the desired variable name into any expression box, right click the variable name, and select <b>Create "variable name" &gt; Desired variable type</b>. </p><div class="image">
 <img src="CreateVar.png" alt="" width="35%"/>
 </div>
-  </div></div><!-- contents -->
+ <h2 class="doxsection"><a class="anchor" id="Passing"></a>
+Variables into Code Modules</h2>
+<p>It is very important that all variables being passed between TestStand and external C code have the appropriate type. To check how variables are being passed into a step, select the step in the Steps Pane, which will open the Step Settings Pane. Then, select a variable to view its properties on the right side of the pane. </p><div class="image">
+<img src="VarPassType.png" alt="" width="90%"/>
+</div>
+<p>  In this case, it would be important to ensure that DIO_GetDeviceIndex() from DIO_LIB.dll is supposed to take a pointer to a <b>signed 32-bit integer</b> for the parameter DeviceIndex. </p>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

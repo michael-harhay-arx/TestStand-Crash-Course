@@ -4,11 +4,12 @@ var developing =
       [ "Variable Types", "vars.html#vartypes", null ],
       [ "Variable Scopes", "vars.html#varscope", null ],
       [ "Working with Variables", "vars.html#workwithvars", [
-        [ "Variables", "vars.html#Creating", null ]
+        [ "Variables", "vars.html#Creating", null ],
+        [ "Variables into Code Modules", "vars.html#Passing", null ]
       ] ]
     ] ],
     [ "Test Steps", "steps.html", [
-      [ "Test Step Types", "steps.html#types", [
+      [ "Test Step Types", "steps.html#tstypes", [
         [ "Action", "steps.html#action", null ],
         [ "Pass/Fail", "steps.html#pf", null ],
         [ "Sequence Call", "steps.html#sc", null ],
@@ -24,7 +25,13 @@ var developing =
         ] ]
       ] ]
     ] ],
-    [ "Types", "types.html", null ],
+    [ "Types", "types.html", [
+      [ "The Types Pane", "types.html#typespane", null ],
+      [ "Working with Types", "types.html#workwithtypes", [
+        [ "Creating a Type", "types.html#creatingtype", null ],
+        [ "Data Type Properties", "types.html#typeprops", null ]
+      ] ]
+    ] ],
     [ "TestStand Flows", "flow.html", [
       [ "Sequence Flow", "flow.html#seqflow", null ],
       [ "Step Flow", "flow.html#stepflow", null ]

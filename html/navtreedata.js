@@ -26,6 +26,8 @@ var NAVTREE =
 [
   [ "TestStand Crash Course", "index.html", [
     [ "Start Here", "index.html", "index" ],
+    [ "Program Execution", "execute.html", null ],
+    [ "Debugging", "debug.html", null ],
     [ "Terminology", "terms.html", null ],
     [ "Configuration &amp; Options", "config.html", [
       [ "Sequence File Properties", "config.html#seqfileprop", null ],
@@ -52,6 +54,7 @@ var NAVTREE =
     ] ],
     [ "Tips &amp; Tricks", "tips.html", null ],
     [ "TestStand API", "api.html", null ],
+    [ "Arxtron TestExec", "testexec.html", null ],
     [ "Change Log", "changelog.html", null ]
   ] ]
 ];

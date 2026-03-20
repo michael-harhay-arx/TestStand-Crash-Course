@@ -41,4 +41,9 @@ There is another useful way to create variables:\+ type the desired variable nam
 \begin{DoxyImageNoCaption}%
   \doxymbox{\includegraphics[width=0.350000\textwidth]{CreateVar.png}}%
 \end{DoxyImageNoCaption}
- 
+\hypertarget{vars_Passing}{}\doxysubsubsection{\texorpdfstring{Variables into Code Modules}{Variables into Code Modules}}\label{vars_Passing}
+It is very important that all variables being passed between Test\+Stand and external C code have the appropriate type. To check how variables are being passed into a step, select the step in the Steps Pane, which will open the Step Settings Pane. Then, select a variable to view its properties on the right side of the pane.  
+\begin{DoxyImageNoCaption}%
+  \doxymbox{\includegraphics[width=0.900000\textwidth]{VarPassType.png}}%
+\end{DoxyImageNoCaption}
+ In this case, it would be important to ensure that DIO\+\_\+\+Get\+Device\+Index() from DIO\+\_\+\+LIB.\+dll is supposed to take a pointer to a {\bfseries{signed 32-\/bit integer}} for the parameter Device\+Index. 

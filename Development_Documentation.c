@@ -39,12 +39,22 @@ From smallest to largest:
 * right click the variable name, and select **Create "variable name" > Desired variable type**.
 * \image html CreateVar.png width=35%
 * \image latex CreateVar.png width=35%
+*
+* \subsection Passing Variables into Code Modules
+* It is very important that all variables being passed between TestStand and 
+* external C code have the appropriate type. To check how variables are being passed 
+* into a step, select the step in the Steps Pane, which will open the Step Settings Pane.
+* Then, select a parameter to view its properties on the right side of the pane.
+* \image html VarPassType.png width=90%
+* \image latex VarPassType.png width=90%
+* In this case, it would be important to ensure that DIO_GetDeviceIndex() from DIO_LIB.dll
+* is supposed to take a pointer to a **signed 32-bit integer** for the parameter DeviceIndex.
 * 
 *******************************************************************************/
 /***************************************************************************//*!
 * \page steps Test Steps
 * 
-* \section types Test Step Types
+* \section tstypes Test Step Types
 * TestStand contains many step types, which can be used to build test sequences.
 * Here are a few of the most commonly used step types:
 *
@@ -91,11 +101,10 @@ From smallest to largest:
 * \subsection editteststep Editing a Test Step
 * To edit a step, select it in the Steps Pane and navigate to the Step Settings Pane if it is not already open.
 * Within the Step Settings Pane, there are typically (but not always) two tabs: **Properties**
-* and **Step-Specific Settings**.
+* and **Step-Specific Settings**. Take some time to try experimenting with these tabs within multiple step types.
 *
 * \subsubsection stepprops Step Properties
 * The **Properties** tab is a standard set of properties that appear in all TestStand step types.
-* Take some time to try experimenting with these options.
 * \image html stepproperties.png "Step Properties Tab" width=85%
 * \image latex stepproperties.png "Step Properties Tab" width=85%
 *
@@ -106,13 +115,42 @@ From smallest to largest:
 * - **Preconditions**: A TestStand expression that determines whether or not the current step is run in the sequence, via a logical condition.
 *
 * \subsubsection stepsettings Step-Specific Settings
-* \image html stepsettings.png "Step-Specific Settings Tab" width=85%
-* \image latex stepsettings.png "Step-Specific Settings Tab" width=85%
+* **Step-Specific Settings** vary between test step types.
+*
+* For example, an Action test step's settings primarily concerns the passing of
+* parameters between TestStand and the code module.
+* \image html stepsettings.png "Step-Specific Settings Tab for an Action Test Step" width=85%
+* \image latex stepsettings.png "Step-Specific Settings Tab for an Action Test Step" width=85%
 *
 *******************************************************************************/
 /***************************************************************************//*!
 * \page types Types 
 * 
+* TestStand supports the creation of custom variable and step types. This functionality can be accessed from the Types Pane.
+*
+* \section typespane The Types Pane
+* The Types Pane can be opened via **View > Types** or by pressing **Ctrl+T**.
+* \image html Types.png "Types Pane" width=60%
+* \image latex Types.png "Types Pane" width=60%
+*
+* \section workwithtypes Working with Types
+* 
+* \subsection creatingtype Creating a Type
+* To create a type, simply right click under the desired type list and follow
+* the resulting pop-up menu.
+*
+* \subsection typeprops Data Type Properties
+* When creating a custom data type, it is important that you correctly configure 
+* its properties. To do so, right click the data type and select **Properties**.
+*
+* The most important property to be aware of is C Struct Passing, as it allows 
+* variables of this data type to be passed into C code modules as C structs. To set
+* up this functionality, follow these steps:
+* -# Click the checkbox titled "Allow Objects of this Type to be Passed as Structs"
+* -# For each field in the data type, ensure that the type matches the type defined by the corresponding code module parameter.
+* \image html TypeProperties.png "Data Type Properties Window" width=30%
+* \image latex TypeProperties.png "Data Type Properties Window" width=30%
+*
 *******************************************************************************/
 /***************************************************************************//*!
 * \page flow TestStand Flows
