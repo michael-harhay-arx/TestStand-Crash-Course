@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['open_20teststand_0',['Open TestStand',['../index.html#open',1,'']]],
-  ['options_1',['Options',['../config.html',1,'Configuration &amp; Options'],['../config.html#modelopts',1,'Model Options'],['../config.html#stationopts',1,'Station Options']]]
+  ['manager_0',['User Manager',['../config.html#usermng',1,'']]],
+  ['model_1',['Model',['../config.html#model',1,'']]],
+  ['model_20options_2',['Model Options',['../config.html#modelopts',1,'']]],
+  ['modes_3',['Step Run Modes',['../running.html#modes',1,'']]]
 ];

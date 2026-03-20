@@ -31,4 +31,26 @@ Database step types can be used to easily communicate with databases, which is o
 \begin{DoxyImageNoCaption}%
   \doxymbox{\includegraphics[width=0.140000\textwidth]{db_steptype.png}}%
 \end{DoxyImageNoCaption}
+\hypertarget{steps_workwithsteps}{}\doxysubsection{\texorpdfstring{Working with Test Steps}{Working with Test Steps}}\label{steps_workwithsteps}
+\hypertarget{steps_createteststep}{}\doxysubsubsection{\texorpdfstring{Creating a Test Step}{Creating a Test Step}}\label{steps_createteststep}
+To create a test step, simply drag and drop from the Insertion Palette into the Steps Pane. Alternatively, right click within the Steps Pane and select {\bfseries{Insert Step \texorpdfstring{$>$}{>} Desired step type}}.\hypertarget{steps_editteststep}{}\doxysubsubsection{\texorpdfstring{Editing a Test Step}{Editing a Test Step}}\label{steps_editteststep}
+To edit a step, select it in the Steps Pane and navigate to the Step Settings Pane if it is not already open. Within the Step Settings Pane, there are typically (but not always) two tabs:\+ {\bfseries{Properties}} and {\bfseries{Step-\/\+Specific Settings}}.\hypertarget{steps_stepprops}{}\doxysubsubsubsection{\texorpdfstring{Step Properties}{Step Properties}}\label{steps_stepprops}
+The {\bfseries{Properties}} tab is a standard set of properties that appear in all Test\+Stand step types. Take some time to try experimenting with these options.  
+\begin{DoxyImage}%
+\includegraphics[width=0.850000\textwidth]{stepproperties.png}%
+\doxyfigcaption{Step Properties Tab}%
+\end{DoxyImage}
+
+
+There are a few key properties to note, all of which are used often at Arxtron:\+
+\begin{DoxyItemize}
+\item {\bfseries{Post Actions}}:\+ Determines how the sequence should behave depending on the result of the current test step.
+\item {\bfseries{Expressions}}:\+ Pre-\/ and Post-\/\+Expressions are Test\+Stand expressions that will run before and after the execution of the current step. The Status Expression determines the output status of the test (pass/\+fail)
+\item {\bfseries{Preconditions}}:\+ A Test\+Stand expression that determines whether or not the current step is run in the sequence, via a logical condition.
+\end{DoxyItemize}\hypertarget{steps_stepsettings}{}\doxysubsubsubsection{\texorpdfstring{Step-\/\+Specific Settings}{Step-\/\+Specific Settings}}\label{steps_stepsettings}
+ 
+\begin{DoxyImage}%
+\includegraphics[width=0.850000\textwidth]{stepsettings.png}%
+\doxyfigcaption{Step-\/\+Specific Settings Tab}%
+\end{DoxyImage}
  

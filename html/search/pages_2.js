@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['database_0',['Database',['../steps.html#db',1,'']]],
-  ['debugging_1',['Debugging',['../debug.html',1,'running']]],
-  ['developing_20a_20test_20sequence_2',['Developing a Test Sequence',['../developing.html',1,'']]],
-  ['directories_3',['Search Directories',['../config.html#searchdirs',1,'']]]
+  ['call_0',['Sequence Call',['../steps.html#sc',1,'']]],
+  ['change_20log_1',['Change Log',['../changelog.html',1,'']]],
+  ['commands_2',['Step Commands',['../running.html#stepcommands',1,'']]],
+  ['configuration_20options_3',['Configuration &amp;amp; Options',['../config.html',1,'']]],
+  ['control_4',['Flow Control',['../steps.html#flow',1,'']]],
+  ['creating_20a_20test_20step_5',['Creating a Test Step',['../steps.html#createteststep',1,'']]]
 ];

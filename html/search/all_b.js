@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pass_20fail_0',['Pass/Fail',['../steps.html#pf',1,'']]],
-  ['program_20execution_1',['Program Execution',['../execute.html',1,'running']]],
-  ['properties_2',['Sequence File Properties',['../config.html#seqfileprop',1,'']]]
+  ['open_20teststand_0',['Open TestStand',['../index.html#open',1,'']]],
+  ['options_1',['Options',['../config.html',1,'Configuration &amp; Options'],['../config.html#modelopts',1,'Model Options'],['../config.html#stationopts',1,'Station Options']]]
 ];

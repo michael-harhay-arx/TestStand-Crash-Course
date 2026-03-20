@@ -91,13 +91,56 @@ $(function(){initNavTree('running.html','',''); });
   <div class="headertitle"><div class="title">Running a Test Sequence </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><ul>
-<li><a class="el" href="execute.html" title="Program Execution">Program Execution</a></li>
-<li><a class="el" href="debug.html" title="Debugging">Debugging</a> </li>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="execute"></a>
+Program Execution</h1>
+<h2 class="doxsection"><a class="anchor" id="modes"></a>
+Step Run Modes</h2>
+<p>Right-clicking on a test step and navigating to <b>Run Mode</b> reveals the available step run modes. These step modes often prove useful while debugging.</p><ul>
+<li><b>Force to Pass</b>: the test step always passes regardless of the actual test result.</li>
+<li><b>Force to Fail</b>: the test step always fails regardless of the actual test result.</li>
+<li><b>Skip</b>: the test step is skipped during sequence execution (used to "comment out" steps).</li>
+<li><b>Normal</b>: the test step runs normally.</li>
+</ul>
+<h2 class="doxsection"><a class="anchor" id="running"></a>
+Running the Sequence</h2>
+<p>There are a few ways to run a TestStand sequence. To see these options, hover over <b>Execute</b>.</p><ul>
+<li><b>Test UUTs</b>: Runs the sequence utilizing the station model.</li>
+<li><b>Single Pass</b>: The same as <b>Test UUTs</b>, but only tests one UUT.</li>
+<li><b>Run MainSequence</b>: Runs the MainSequence directly without using the station model (useful for debugging).</li>
+</ul>
+<h2 class="doxsection"><a class="anchor" id="running2"></a>
+Running Selected Steps</h2>
+<p>To run a subset of steps from a sequence, select the desired steps within the Steps Pane and right click, selecting <b>Run Selected Steps</b>. This can also be done from <b>Execute &gt; Run Selected Steps</b>.</p>
+<h1 class="doxsection"><a class="anchor" id="debug"></a>
+Debugging</h1>
+<p>Debugging a TestStand sequence can be approached similar to conventional code debugging.</p>
+<h2 class="doxsection"><a class="anchor" id="analyze"></a>
+Sequence Analyzer</h2>
+<p>TestStand's sequence analyzer is a tool that will attempt to point out potential issues in a sequence. It can be run via <b>Debug &gt; Sequence Analyzer &gt; Analyze "SequenceFileName.seq"</b>. Additionally, it can be automatically set to run before any execution, via <b>Debug &gt; Sequence Analyzer &gt; Toggle Analyze File Before Executing</b>.</p>
+<p>Sequence analysis results will populate in the Analysis Results Pane, which is in the same location as the Step Settings Pane.</p>
+<h2 class="doxsection"><a class="anchor" id="breakpoints"></a>
+Breakpoints &amp; Watch Expressions</h2>
+<p>Breakpoints can be set by navigating to <b>Debug &gt; Breakpoints/Watches</b>, and adding a breakpoint via the resulting menu. Note that watch expressions can also be set from within the menu.</p>
+<p>Alternatively, clicking within the white space directly to the left of a test step will enable a breakpoint. </p><div class="image">
+<img src="Breakpoint.png" alt="" width="30%"/>
+</div>
+ <h2 class="doxsection"><a class="anchor" id="stepcommands"></a>
+Step Commands</h2>
+<p>While executing a sequence with breakpoints, standard debugging step commands can be used. They can be found under <b>Debug</b>; here are some of the most useful ones:</p><ul>
+<li><b>Resume</b>: Resumes execution until the next breakpoint is reached (F5).</li>
+<li><b>Step Over</b>: Steps over the current test step without resuming execution (F8).</li>
+<li><b>Step Into</b>: Steps into the current test step (F10). Especially useful for stepping into the source code of a code module. </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

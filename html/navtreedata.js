@@ -38,7 +38,18 @@ var NAVTREE =
       [ "Model Options", "config.html#modelopts", null ]
     ] ],
     [ "Developing a Test Sequence", "developing.html", "developing" ],
-    [ "Running a Test Sequence", "running.html", "running" ],
+    [ "Running a Test Sequence", "running.html", [
+      [ "Program Execution", "running.html#execute", [
+        [ "Step Run Modes", "running.html#modes", null ],
+        [ "Running the Sequence", "running.html#running", null ],
+        [ "Running Selected Steps", "running.html#running2", null ]
+      ] ],
+      [ "Debugging", "running.html#debug", [
+        [ "Sequence Analyzer", "running.html#analyze", null ],
+        [ "Breakpoints &amp; Watch Expressions", "running.html#breakpoints", null ],
+        [ "Step Commands", "running.html#stepcommands", null ]
+      ] ]
+    ] ],
     [ "Tips &amp; Tricks", "tips.html", null ],
     [ "TestStand API", "api.html", null ],
     [ "Change Log", "changelog.html", null ]
