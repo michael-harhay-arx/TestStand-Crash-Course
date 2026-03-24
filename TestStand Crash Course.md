@@ -22,7 +22,7 @@ a) Getting Started
 
 b) Variables
 
-b) Step Types C passing rules (getting the type stuff right, by ref/by value) (Action vs pass fail) (step editing)
+b) Step Types (C passing rules) (getting the type stuff right, by ref/by value) (Action vs pass fail) (step editing)
 
 d) Types
 

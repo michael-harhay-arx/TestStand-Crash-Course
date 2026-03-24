@@ -13,10 +13,10 @@ Number of Projects = 1
 Active Project = 1
 Project 0001 = "TestStand_CrashCourse.prj"
 Drag Bar Left = 337
-Window Top = 135
-Window Left = 163
-Window Bottom = 1135
-Window Right = 1121
+Window Top = 127
+Window Left = 285
+Window Bottom = 1127
+Window Right = 1243
 Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -48,23 +48,14 @@ Batch Build Debug = False
 [File 0001]
 Path = "/c/Arxtron/Training Updates/TestStand Training/MainPage.c"
 File Type = "CSource"
-Disk Date = 3856878518
+Disk Date = 3856887377
 In Projects = "1,"
-Source Window State = "1,189,189,189,33,33,33,0,0,0,0,0,0,0,0,0,92,0,189,33,401,693,1,0,"
+Source Window State = "1,203,203,203,20,20,20,0,0,0,0,0,0,0,0,0,79,0,203,20,401,693,1,0,"
 Window Top = 33
 Window Left = 10
 Window Z-Order = 2
 
 [File 0002]
-Path = "/c/Arxtron/Training Updates/TestStand Training/Terminology_Documentation.c"
-File Type = "CSource"
-Disk Date = 3856781980
-In Projects = "1,"
-Source Window State = "1,20,20,20,8,8,8,0,0,0,0,0,0,0,0,0,0,0,20,8,401,693,1,0,"
-Window Top = 188
-Window Left = 90
-
-[File 0003]
 Path = "/c/Arxtron/Training Updates/TestStand Training/Tips_Tricks_Documentation.c"
 File Type = "CSource"
 Disk Date = 3856780354
@@ -74,17 +65,17 @@ Window Top = 343
 Window Left = 170
 Window Z-Order = 3
 
-[File 0004]
+[File 0003]
 Path = "/c/Arxtron/Training Updates/TestStand Training/Development_Documentation.c"
 File Type = "CSource"
-Disk Date = 3856884837
+Disk Date = 3857206480
 In Projects = "1,"
-Source Window State = "1,103,103,103,33,33,33,0,0,0,0,0,0,0,0,0,93,0,103,33,401,693,1,0,"
+Source Window State = "1,179,179,179,64,64,64,0,0,0,0,0,0,0,0,0,136,0,179,64,401,693,1,0,"
 Window Top = 219
 Window Left = 106
 Window Z-Order = 1
 
-[File 0005]
+[File 0004]
 Path = "/c/Arxtron/Training Updates/TestStand Training/API_Documentation.c"
 File Type = "CSource"
 Disk Date = 3856781300
@@ -92,6 +83,15 @@ In Projects = "1,"
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,401,693,1,0,"
 Window Top = 374
 Window Left = 186
+
+[File 0005]
+Path = "/c/Arxtron/Training Updates/TestStand Training/Terminology_Documentation.c"
+File Type = "CSource"
+Disk Date = 3856781980
+In Projects = "1,"
+Source Window State = "1,20,20,20,8,8,8,0,0,0,0,0,0,0,0,0,0,0,20,8,401,693,1,0,"
+Window Top = 188
+Window Left = 90
 
 [Tab Order]
 Tab 0001 = "/c/Arxtron/Training Updates/TestStand Training/MainPage.c"

@@ -14,7 +14,7 @@ var developing =
         [ "Pass/Fail", "steps.html#pf", null ],
         [ "Sequence Call", "steps.html#sc", null ],
         [ "Statement", "steps.html#statement", null ],
-        [ "Flow Control", "steps.html#flow", null ],
+        [ "Flow Control", "steps.html#flowctrl", null ],
         [ "Database", "steps.html#db", null ]
       ] ],
       [ "Working with Test Steps", "steps.html#workwithsteps", [
@@ -34,6 +34,6 @@ var developing =
     ] ],
     [ "TestStand Flows", "flow.html", [
       [ "Sequence Flow", "flow.html#seqflow", null ],
-      [ "Step Flow", "flow.html#stepflow", null ]
+      [ "Test Step Flow", "flow.html#stepflow", null ]
     ] ]
 ];

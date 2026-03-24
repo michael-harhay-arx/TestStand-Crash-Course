@@ -16,7 +16,7 @@ var searchData=
   ['station_20options_13',['Station Options',['../config.html#stationopts',1,'']]],
   ['step_14',['Step',['../steps.html#createteststep',1,'Creating a Test Step'],['../steps.html#editteststep',1,'Editing a Test Step']]],
   ['step_20commands_15',['Step Commands',['../running.html#stepcommands',1,'']]],
-  ['step_20flow_16',['Step Flow',['../flow.html#stepflow',1,'']]],
+  ['step_20flow_16',['Test Step Flow',['../flow.html#stepflow',1,'']]],
   ['step_20properties_17',['Step Properties',['../steps.html#stepprops',1,'']]],
   ['step_20run_20modes_18',['Step Run Modes',['../running.html#modes',1,'']]],
   ['step_20specific_20settings_19',['Step-Specific Settings',['../steps.html#stepsettings',1,'']]],

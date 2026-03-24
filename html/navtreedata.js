@@ -26,11 +26,12 @@ var NAVTREE =
 [
   [ "TestStand Crash Course", "index.html", [
     [ "Start Here", "index.html", "index" ],
-    [ "Program Execution", "execute.html", null ],
-    [ "Debugging", "debug.html", null ],
     [ "Terminology", "terms.html", null ],
     [ "Configuration &amp; Options", "config.html", [
-      [ "Sequence File Properties", "config.html#seqfileprop", null ],
+      [ "Sequence File Properties", "config.html#seqfileprop", [
+        [ "File Globals", "config.html#Shared", null ],
+        [ "Format", "config.html#File", null ]
+      ] ],
       [ "User Manager", "config.html#usermng", null ],
       [ "Station Options", "config.html#stationopts", [
         [ "Execution", "config.html#exe", null ],

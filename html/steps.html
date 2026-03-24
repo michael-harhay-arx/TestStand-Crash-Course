@@ -114,7 +114,7 @@ Statement</h2>
 <p>Executes a TestStand expression. For example, a statement step can be used to increment the value of a local variable. Note that statement steps do not return a pass/fail status by default; step status can be set in the Step Settings Pane under <b>Properties &gt; Expressions &gt; Status Expression</b>. </p><div class="image">
 <img src="statement_steptype.png" alt="" width="8%"/>
 </div>
- <h2 class="doxsection"><a class="anchor" id="flow"></a>
+ <h2 class="doxsection"><a class="anchor" id="flowctrl"></a>
 Flow Control</h2>
 <p>Flow control step types implement standard programming branching statements. </p><div class="image">
 <img src="flowctrl_steptype.png" alt="" width="10%"/>
@@ -131,14 +131,14 @@ Creating a Test Step</h2>
 <p>To create a test step, simply drag and drop from the Insertion Palette into the Steps Pane. Alternatively, right click within the Steps Pane and select <b>Insert Step &gt; Desired step type</b>.</p>
 <h2 class="doxsection"><a class="anchor" id="editteststep"></a>
 Editing a Test Step</h2>
-<p>To edit a step, select it in the Steps Pane and navigate to the Step Settings Pane if it is not already open. Within the Step Settings Pane, there are typically (but not always) two tabs: <b>Properties</b> and <b>Step-Specific Settings</b>.</p>
+<p>To edit a step, select it in the Steps Pane and navigate to the Step Settings Pane if it is not already open. Within the Step Settings Pane, there are typically (but not always) two tabs: <b>Properties</b> and <b>Step-Specific Settings</b>. Take some time to try experimenting with these tabs within multiple step types.</p>
 <h3 class="doxsection"><a class="anchor" id="stepprops"></a>
 Step Properties</h3>
-<p>The <b>Properties</b> tab is a standard set of properties that appear in all TestStand step types. Take some time to try experimenting with these options. </p><div class="image">
+<p>The <b>Properties</b> tab is a standard set of properties that appear in all TestStand step types. </p><div class="image">
 <img src="stepproperties.png" alt="" width="85%"/>
 <div class="caption">
 Step Properties Tab</div></div>
- <p>There are a few key properties to note, all of which are used often at Arxtron:</p><ul>
+ <p>There are a few key properties to note, all of which are used often at Arxtron (see <a class="el" href="flow.html#stepflow" title="Test Step Flow">Test Step Flow</a> for more details):</p><ul>
 <li><b>Post Actions</b>: Determines how the sequence should behave depending on the result of the current test step.</li>
 <li><b>Expressions</b>: Pre- and Post-Expressions are TestStand expressions that will run before and after the execution of the current step. The Status Expression determines the output status of the test (pass/fail)</li>
 <li><b>Preconditions</b>: A TestStand expression that determines whether or not the current step is run in the sequence, via a logical condition.</li>

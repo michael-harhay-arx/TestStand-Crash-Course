@@ -59,8 +59,13 @@ The interface is divided into the following panes:
 * their recommended states.
 *
 * \section seqfileprop Sequence File Properties
-* Can be accessed via **Edit > Sequence File Properties**. The most important setting
-* within this menu is "File Format". The dropdown allows the user to choose between
+* Can be accessed via **Edit > Sequence File Properties**.
+*
+* \subsection Shared File Globals
+* WIP
+*
+* \subsection File Format
+* The dropdown allows the user to choose between
 * saving the file in INI, XML, or binary format. For now, it doesn't matter.
 * \image html SeqFileProperties.png "Sequence File Properties Menu" width=30%
 * \image latex SeqFileProperties.png "Sequence File Properties Menu" width=30%
@@ -182,21 +187,22 @@ The interface is divided into the following panes:
 
 /***************************************************************************//*!
 * \page api TestStand API
-*
+* WIP
 * <a href="https://www.ni.com/en/support/documentation/supplemental/08/programming-with-the-teststand-api.html?srsltid=AfmBOoqlfdJtqebNAnq4Q-6613BWmBbvTlgJdJIc0X8zPEaPJOGfshIn">NI Documentation</a>
 *******************************************************************************/
 
 /***************************************************************************//*!
 * \page testexec Arxtron TestExec
+* WIP
 *******************************************************************************/
 
 /***************************************************************************//*!
 * \page changelog Change Log
 * <table>
 * <tr><th>Version<th>Author<th>Date<th>Changes
-* <tr><td>0.0.1
+* <tr><td>1.0.0
 * <td>Michael Harhay
-* <td>18/3/2026
+* <td>24/3/2026
 * <td>Initial Release
 * </table>
 *******************************************************************************/

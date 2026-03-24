@@ -82,7 +82,7 @@ From smallest to largest:
 * \image html statement_steptype.png width=8%
 * \image latex statement_steptype.png width=8%
 *
-* \subsection flow Flow Control
+* \subsection flowctrl Flow Control
 * Flow control step types implement standard programming branching statements.
 * \image html flowctrl_steptype.png width=10%
 * \image latex flowctrl_steptype.png width=10%
@@ -108,7 +108,7 @@ From smallest to largest:
 * \image html stepproperties.png "Step Properties Tab" width=85%
 * \image latex stepproperties.png "Step Properties Tab" width=85%
 *
-* There are a few key properties to note, all of which are used often at Arxtron:
+* There are a few key properties to note, all of which are used often at Arxtron (see \ref stepflow for more details):
 * - **Post Actions**: Determines how the sequence should behave depending on the result of the current test step.
 * - **Expressions**: Pre- and Post-Expressions are TestStand expressions that will run before and after the
 * execution of the current step. The Status Expression determines the output status of the test (pass/fail)
@@ -156,13 +156,34 @@ From smallest to largest:
 * \page flow TestStand Flows
 * 
 * \section seqflow Sequence Flow
-* TestStand follows a standard procedure when executing a sequence, outlined by the following flowchart.
+* TestStand follows a standard order of sequences within a sequence file, outlined by the following flowchart.
+* If the following sequences do not appear in TestStand, navigate to **Edit > Sequence File Callbacks**.
+* From that menu, you can add default TestStand callback sequences.
+* -# **ProcessSetup**: Used for program setup (e.g. starting threads, initializing libraries).
+* -# **PreBatch**: If batch model is active, runs before each batch.
+* -# **PreUUT**: Runs before each UUT.
+* -# **MainSequence**: Primary test sequence to be run.
+* -# **PostUUT**: Runs after each UUT.
+* -# **PostBatch**: If batch model is active, runs after each batch.
+* -# **ProcessCleanup**: Used for program cleanup.
+*
 * \image html SequencerFlow.png "TestStand Sequence Flow" width=40%
 * \image latex SequencerFlow.png "TestStand Sequence Flow" width=40%
 *
-* \section stepflow Step Flow
+* \section stepflow Test Step Flow
 * TestStand also follows a standard procedure within each test step, as outlined below.
-* \image html StepFlow.png "TestStand Step Flow" width=30%
-* \image latex StepFlow.png "TestStand Step Flow" width=30%
+* -# **Preconditions**: See \ref stepprops.
+* -# **Loop Initialization Expression**: Used to initialize loop variables (e.g. int i = 0).
+* -# **Pre-Expression**: See \ref stepprops.
+* -# **Module Action**: Main module action.
+* -# **Post-Expression**: See \ref stepprops.
+* -# **Status Expression**: Determines pass/fail status of step.
+* -# **Loop Increment Expression**: Increments loop variables (e.g. i++).
+* -# **Loop While Expression**: Checks loop condition (e.g. i < 10).
+* -# **Loop Status Expression**: Determines pass/fail status of loop.
+* -# **Post Actions**: See \ref stepprops.
+*
+* \image html StepFlow.png "TestStand Test Step Flow" width=30%
+* \image latex StepFlow.png "TestStand Test Step Flow" width=30%
 *
 *******************************************************************************/
