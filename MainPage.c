@@ -29,7 +29,7 @@
 * -# When TestStand launches, it will prompt you for credentials. By default, the username should be "administrator" and the password should be left blank.
 *
 * \image html TestStandVersionSelector.png "TestStand Version Selector"
-* \image latex TestStandVersionSelector.png "TestStand Version Selector"
+* \image latex TestStandVersionSelector.png "TestStand Version Selector" width=60%
 *
 * \subsection familiarize Familiarize Yourself
 * Once TestStand is open, select **View > Reset UI Configuration**. This will ensure that your UI layout is the same as described in this guide.
@@ -37,7 +37,7 @@
 *
 * Take a few moments to familiarize yourself with the general layout of the program.
 * \image html TestStandHome.png "Default TestStand Layout" width=70%
-* \image latex TestStandHome.png "Default TestStand Layout" width=70%
+* \image latex TestStandHome.png "Default TestStand Layout" width=90%
 The interface is divided into the following panes:
 * -# **Steps Pane**: this is where test steps are sequenced.
 * -# **Sequences Pane**: contains a list of all sequences within the sequence file.
@@ -61,14 +61,16 @@ The interface is divided into the following panes:
 * \section seqfileprop Sequence File Properties
 * Can be accessed via **Edit > Sequence File Properties**.
 *
-* \subsection Shared File Globals
-* WIP
+* \subsection Sequence File Globals
+* The dropdown allows the user to select whether variables within the FileGlobals
+* scope should be shared between executions (especially important when running
+* in **Parallel Mode** or **Batch Mode**). Adjust this setting on a case-by-case basis.
 *
 * \subsection File Format
 * The dropdown allows the user to choose between
 * saving the file in INI, XML, or binary format. For now, it doesn't matter.
 * \image html SeqFileProperties.png "Sequence File Properties Menu" width=30%
-* \image latex SeqFileProperties.png "Sequence File Properties Menu" width=30%
+* \image latex SeqFileProperties.png "Sequence File Properties Menu" width=40%
 *
 * \section usermng User Manager
 * Can be accessed via **View > User Manager** or **Ctrl+U**. The user manager is used
@@ -76,7 +78,7 @@ The interface is divided into the following panes:
 * passwords and privileges. If you wish, add a new user profile for yourself, making sure
 * to grant yourself admin privileges.
 * \image html UserManager.png "User Manager" width=50%
-* \image latex UserManager.png "User Manager" width=50%
+* \image latex UserManager.png "User Manager" width=60%
 *
 * \section stationopts Station Options
 * Can be accessed via **Configure > Station Options**.
@@ -87,7 +89,7 @@ The interface is divided into the following panes:
 * that test sequences can be properly debugged, especially when stepping into code
 * modules. Additionally, Enable Tracing should be turned on.
 * \image html Execution.png "Station Options Execution Panel" width=30%
-* \image latex Execution.png "Station Options Execution Panel" width=30%
+* \image latex Execution.png "Station Options Execution Panel" width=40%
 *
 * \subsection model Model
 * This panel contains settings related to the station model. TestStand supports three 
@@ -101,20 +103,20 @@ The interface is divided into the following panes:
 *
 * At Arxtron, we typically use the Parallel station model, but it's good to be familiar with all three models.
 * \image html Model.png "Station Options Model Panel" width=32%
-* \image latex Model.png "Station Options Model Panel" width=32%
+* \image latex Model.png "Station Options Model Panel" width=42%
 *
 * \section searchdirs Search Directories
 * Can be accessed via **Configure > Search Directories**. Used to configure TestStand's
 * search directories. Ensure that **C:\Arxtron\Libraries** is added, with the "Subdirs" option
 * selected; this allows TestStand to find and reference Arxtron library .dlls.
 * \image html SearchDirs.png "Search Directories Menu" width=50%
-* \image latex SearchDirs.png "Search Directories Menu" width=50%
+* \image latex SearchDirs.png "Search Directories Menu" width=60%
 *
 * \section modelopts Model Options
 * Can be accessed via **Configure > Model Options**. Primarily used to select the number
 * of "Test Sockets", or the max number of UUTs that can be tested simultaneously.
 * \image html ModelOptions.png "Model Options Menu" width=30%
-* \image latex ModelOptions.png "Model Options Menu" width=30%
+* \image latex ModelOptions.png "Model Options Menu" width=40%
 * 
 *******************************************************************************/
 
@@ -169,7 +171,7 @@ The interface is divided into the following panes:
 * Alternatively, clicking within the white space directly to the left of a test step
 * will enable a breakpoint.
 * \image html Breakpoint.png width=30%
-* \image latex Breakpoint.png width=30%
+* \image latex Breakpoint.png width=40%
 *
 * \subsection stepcommands Step Commands
 * While executing a sequence with breakpoints, standard debugging step commands

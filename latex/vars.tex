@@ -26,24 +26,24 @@ Note:\+ {\bfseries{This\+Context}} and {\bfseries{Run\+State}} are typically onl
 
  
 \begin{DoxyImage}%
-\includegraphics[width=0.250000\textwidth]{Scopes.png}%
+\includegraphics[width=0.350000\textwidth]{Scopes.png}%
 \doxyfigcaption{Test\+Stand Variable Scopes}%
 \end{DoxyImage}
 \hypertarget{vars_workwithvars}{}\doxysubsection{\texorpdfstring{Working with Variables}{Working with Variables}}\label{vars_workwithvars}
 \hypertarget{vars_Creating}{}\doxysubsubsection{\texorpdfstring{Variables}{Variables}}\label{vars_Creating}
 To create a variable, right click under the desired scope in the Variables Pane. Then select the desired type from the resulting dropdown.  
 \begin{DoxyImageNoCaption}%
-  \doxymbox{\includegraphics[width=0.300000\textwidth]{InsertVar.png}}%
+  \doxymbox{\includegraphics[width=0.500000\textwidth]{InsertVar.png}}%
 \end{DoxyImageNoCaption}
 
 
 There is another useful way to create variables:\+ type the desired variable name into any expression box, right click the variable name, and select {\bfseries{Create "{}variable name"{} \texorpdfstring{$>$}{>} Desired variable type}}.  
 \begin{DoxyImageNoCaption}%
-  \doxymbox{\includegraphics[width=0.350000\textwidth]{CreateVar.png}}%
+  \doxymbox{\includegraphics[width=0.550000\textwidth]{CreateVar.png}}%
 \end{DoxyImageNoCaption}
 \hypertarget{vars_Passing}{}\doxysubsubsection{\texorpdfstring{Variables into Code Modules}{Variables into Code Modules}}\label{vars_Passing}
 It is very important that all variables being passed between Test\+Stand and external C code have the appropriate type. To check how variables are being passed into a step, select the step in the Steps Pane, which will open the Step Settings Pane. Then, select a parameter to view its properties on the right side of the pane.  
 \begin{DoxyImageNoCaption}%
-  \doxymbox{\includegraphics[width=0.900000\textwidth]{VarPassType.png}}%
+  \doxymbox{\includegraphics[width=1.000000\textwidth]{VarPassType.png}}%
 \end{DoxyImageNoCaption}
  In this case, it would be important to ensure that DIO\+\_\+\+Get\+Device\+Index() from DIO\+\_\+\+LIB.\+dll is supposed to take a pointer to a {\bfseries{signed 32-\/bit integer}} for the parameter Device\+Index. 

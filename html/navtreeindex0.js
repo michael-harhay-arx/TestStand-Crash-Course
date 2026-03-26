@@ -4,7 +4,7 @@ var NAVTREEINDEX0 =
 "changelog.html":[8],
 "config.html":[2],
 "config.html#File":[2,0,1],
-"config.html#Shared":[2,0,0],
+"config.html#Sequence":[2,0,0],
 "config.html#exe":[2,2,0],
 "config.html#model":[2,2,1],
 "config.html#modelopts":[2,4],

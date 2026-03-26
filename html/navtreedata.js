@@ -29,7 +29,7 @@ var NAVTREE =
     [ "Terminology", "terms.html", null ],
     [ "Configuration &amp; Options", "config.html", [
       [ "Sequence File Properties", "config.html#seqfileprop", [
-        [ "File Globals", "config.html#Shared", null ],
+        [ "File Globals", "config.html#Sequence", null ],
         [ "Format", "config.html#File", null ]
       ] ],
       [ "User Manager", "config.html#usermng", null ],
